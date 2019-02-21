@@ -59,7 +59,7 @@ module.exports.connections = {
   extent: {
     adapter: 'sails-mongo',
     host: '10.87.11.117', // host where MongoDB is running
-    port: 443, // port where MongoDB is running
+    port: 27017, // port where MongoDB is running
     database: 'extent'
   },
 
