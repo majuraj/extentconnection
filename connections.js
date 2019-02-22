@@ -58,7 +58,7 @@ module.exports.connections = {
   ***************************************************************************/
   extent: {
     adapter: 'sails-mongo',
-    host: 'http://automation-test-alb-1453190222.eu-west-1.elb.amazonaws.com/', // host where MongoDB is running
+    host: 'localhost', // host where MongoDB is running
     port: 80, // port where MongoDB is running
     database: 'extent'
   },
